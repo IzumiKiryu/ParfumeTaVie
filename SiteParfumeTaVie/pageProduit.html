@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pageProduit.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <title>Dior - Sauvage</title>
+</head>
+    <body>
+            <!--Header-->
+        <header class="entete">
+            <div class="logo">
+                <a href="index.html" title= "LogoPTV"><img src="images/LogoPTV" alt="Logo PTV" /></a>
+                <p>
+                    Vente privée</br>
+                    de Parfums
+                </p>
+            </div>
+            <div class="slogan">
+                <img src="images/ParfumeTaVieFr" alt="Logo Slogan">
+            </div>
+            <div>
+                <a class="inscription" href="">Mon compte</a><br/>
+                <a class="connexion" href="">Mes commandes</a>
+            </div>
+           
+        </header>
+
+    <!--Barre de recherche-->
+        <article class="navRecherche">
+            <div class="recherche">
+                <input type="text">
+            </div>
+            <div class="panier">
+                <a href="panier.html"><img src="images/LogoPanier.png" alt="Logo Panier"></a>
+            </div>         
+        </article>
+        
+
+    <!--Barre de navigation-->
+                <nav class="navBar">
+                    <a href="index.html">Accueil</a>
+                    <a href="femmes.html">Femmes</a>
+                    <a href="hommes.html">Hommes</a>
+                    <a href="marques.html">Marques</a>
+                    <a class=new href="nouveautes.html">Nouveautés</a>
+                    <a href="a-propos.html">A Propos</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+        <article class="pageProduit">
+            <!--Les Filtre-->
+            <section class="filtre">
+                <!--Filtre catégorie-->
+                <section class="categorie">
+                    <h1>Filtre par</h1>
+                    <h2>Catégorie</h2>
+                    <div>
+                        <input type="checkbox" name="parfumFloral" id="">
+                        <label for="parfumFloral">Parfum floral</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="parfumPoudre" id="">
+                        <label for="parfumPoudre">Parfum poudré</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="parfumFrais" id="">
+                        <label for="parfumFrais">Parfum frais</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="parfumMarin" id="">
+                        <label for="parfumMarin">Parfum marin</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="parfumBoise" id="">
+                        <label for="parfumBoise">Parfum boisé</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="parfumEpice" id="">
+                        <label for="parfumEpice">Parfum épicé</label>
+                    </div>
+                </section>
+                
+
+                <!--Filtre marques-->
+                <section class="marques">
+                    <h2>Marques</h2>
+                    <div>
+                        <input type="checkbox" name="armani" id="">
+                        <label for="armani">Armani</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="azzaro" id="">
+                        <label for="azzaro">Azzaro</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="burberry" id="">
+                        <label for="burberry">Burberry</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="cartier" id="">
+                        <label for="cartier">Cartier</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="chanel" id="">
+                        <label for="chanel">Chanel</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="chloe" id="">
+                        <label for="chloe">Chloé</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="dior" id="">
+                        <label for="dior">Dior</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="givenchy" id="">
+                        <label for="givenchy">Givenchy</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="guerlain" id="">
+                        <label for="guerlain">Guerlain</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="Hermes" id="">
+                        <label for="Hermes">Hermès</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="jeanPaulGaultier" id="">
+                        <label for="jeanPaulGaultier">Jean Paul Gaultier</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="lancome" id="">
+                        <label for="lancome">Lancôme</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="pacoRabanne" id="">
+                        <label for="parfumEpice">Paco Rabanne</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="valentino" id="">
+                        <label for="valentino">Valentino</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="ersace" id="">
+                        <label for="versace">Versace</label>
+                    </div>
+
+
+                    <div>
+                        <input type="checkbox" name="yvesSaintLaurent" id="">
+                        <label for="yvesSaintLaurent">Yves Saint Laurent</label>
+                    </div>
+
+                </section>
+                <!--Filtre prix-->
+                <section class="prix">
+                    <h2>Prix</h2>
+                    <div>
+                    <input type="text" placeholder="Prix min">
+                    <input type="text" placeholder="Prix max">
+                    </div>
+                    
+                    <div class="buttonFiltre">
+                        <button>Appliquer les filtres</button>
+                    </div>
+                </section>
+            </section>
+
+            <!--Photo du produit-->
+            <section class="parfumProduit">
+                <section>
+                    <div>
+                        <img class="produitGrande" src="imagesPageProduit/CHRISTIAN-DIOR-SAUVAGE-MEN-EDP-100ML.-540x540-1.png" alt="">
+                        <img class="produitGrande" src="imagesPageProduit/m37461748018_1.jpg" alt="">
+                    <div>
+                    </div>
+                    
+                        <img class="produitPetit" src="imagesPageProduit/dior_sauvage_2.png" alt="">
+                        <img class="produitPetit" src="imagesPageProduit/m37461748018_1.jpg" alt="">
+                    </div>
+                </section>
+                
+                <!--Composition du produit-->
+                <section>
+                    <h2 id="comp">Composition</h2>
+                <p>
+                    <ul>
+                        <li>Bergamote Reggio de Calabre</li>
+                        <li>Sillage d’Ambroxan</li>
+                        <li>Alcool</li>
+                        <li>Eau</li>
+                        <li>Limonène</li>
+                        <li>Linalool</li>
+                        <li>Ethylhexyl méthoxycinnamate</li>
+                        <li>Citronellol</li>
+                        <li>Diethylamino hydroxybenzoyl hexyl benzoate</li>
+                        <li>Salicylate d'octyle</li>
+                    </ul>
+                </p>
+                </section>
+                
+                <!--Avis des clients-->
+                <section>
+                    <h1 id="avcl">Avis de nos clients</h1>
+                    <h3>Marc. D</h3>
+                    <div class="note">
+                        <img src="imagesPageProduit/Etoiles_4.png" alt="">
+                    </div>
+                    <p class="avisBorder">
+                        En mettant ce parfum, je me sens d’attaque et prêt à affronter ma journée. 
+                        Mes collègues de travail me font beaucoup de compliments. J’adore !
+                    </p>
+                
+                    <h3>Quentin. M</h3>
+                    <div class="note">
+                        <img src="imagesPageProduit/Etoiles_5.png" alt="">
+                    </div>
+                    <p class="avisBorder">
+                        J’ai découvert ce parfum dans une pub avec Johnny Depp,
+                        mon acteur préféré. 
+                        Porter ce parfum me donne des envies de voyager, 
+                        d’être dans un désert, sur un cheval, 
+                        pendant que le soleil se couche. 
+                        Merci pour l’évasion ! 
+                    </p>
+
+                    <h3>Laurent. K</h3>
+                    <div class="note">
+                        <img src="imagesPageProduit/Etoiles_5.png" alt="">
+                    </div>
+                    <p class="avisBorder">
+                        Le côté poivré du parfum me plait beaucoup. 
+                        De base, j’aime les parfums très forts. 
+                        J’aime bien celui-ci car il reste toute la journée sur la peau. 
+                        Il est rechargeable alors je fais de sacrées économies. 
+                    </p>
+                </section>
+                
+
+
+                <!--Afficher les avis en plus-->
+                
+                <div id="masquezAvis">
+                    
+                    <h3>Thomas. E</h3>
+                    <div class="note">
+                        <img src="imagesPageProduit/imagesPageProduit/Etoiles_5.png" alt="">
+                    </div>
+                    <p class="avisBorder">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, commodi possimus esse tenetur quia maiores quo accusamus minus enim atque a dolorum cum 
+                        perferendis saepe impedit sapiente repudiandae aliquid. Laudantium.
+                    </p>
+
+                    <h3>Thor. O</h3>
+                    <div class="note">
+                        <img src="imagesPageProduit/Etoiles_4.png" alt="">
+                    </div>
+                    <p class="avisBorder">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, commodi possimus esse tenetur quia maiores quo accusamus minus enim atque a dolorum cum 
+                        perferendis saepe impedit sapiente repudiandae aliquid. Laudantium.
+                    </p>
+
+                    <h3>Laura. J</h3>
+                    <div class="note">
+                        <img src="imagesPageProduit/Etoiles_4.5.png" alt="">
+                    </div>
+                    <p class="avisBorder">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, commodi possimus esse tenetur quia maiores quo accusamus minus enim atque a dolorum cum 
+                        perferendis saepe impedit sapiente repudiandae aliquid. Laudantium.
+                    </p>
+
+
+                </div>
+                <!--Bouton pour afficher les avis en plus-->
+
+                <section>
+                    <img id="buttonPlus" src="imagesPageProduit/Double_fleches_bas.png" alt="">
+                    <p class="voir">Voir plus</p>
+                </section>
+                <!--Sélectionnés pour vous des produits-->
+                <section>
+                    <h1 class="titreImage">Sélectionnés pour vous</h1>
+                    <article class="flexImages">
+                        <img src="imagesPageProduit/Chanel n5.jpg" alt="">
+                        <img src="imagesPageProduit/Miniature Guerlain - LPRN Coffret.jpg" alt="">
+                        <img src="imagesPageProduit/Miniature Lancôme La vie est belle.jpg" alt="">
+                        <img src="imagesPageProduit/Miniature JPG Le Male.jpg" alt="">
+                    </article>
+                </section>
+
+            </section>
+            <!--Titre de la marque-->
+            <section class="marqueProduit">
+                <h1 class="titreDior">Dior</h1>
+                <h2>SAUVAGE - Eau de parfum</h2>
+                <div class="note">
+                    <img src="imagesPageProduit/Etoiles_4.5.png" alt="">
+                </div>
+                <!--Description du produit-->
+                <h2 class="nof">Description</h2>
+                <p>
+                    Article emblématique de la maison Dior, 
+                    l’eau de toilette Sauvage fera ressortir votre côté bestial. 
+                    Très masculine, l’eau de toilette Dior Sauvage est une fragrance à la virilité assumée. 
+                    Avec des notés ambrées, épicées et boisées, ce parfum se révèle comme une respiration fraîche et intense. 
+                    Alliant une essence de bergamote poivrée calabraise et des ingrédients naturels rappelant les grands espaces, 
+                    Dior Sauvage possède un caractère unique. 
+                    Dans un souci de développement durable, 
+                    les flacons 30 ml et 100 ml sont rechargeables.<br/>
+                    <br/>Conseils d’utilisation : 
+                    Nous vous conseillons d’abord de purifier votre peau avec un savon noir sauvage suivi d’une crème Dior pour la peau. 
+                    Aspergez-vous d’eau de toilette Dior Sauvage à 10 cm de votre peau. 
+                    1 à 2 pressions sur l’eau de toilette suffisent. 
+                </p>
+
+
+                <!--Notes olfatives du produit-->
+                <h2 class="nof">Notes olfactives</h2>
+                <p>
+                    
+                    Essence de bergamote provenant de Reggio de Calabre. 
+                    Se gorgeant de soleil calabrais, 
+                    la bergamote offre des effluves poivrées et zestées.<br/> 
+                    Essence de sillage d’Ambroxan. 
+                    Obtenu à partir de la sauge, 
+                    l’Ambroxan est une représentation exacte de l’ambre gris. 
+                    C’est cela qui donne à l’eau de toilette Dior Sauvage ses notes boisées et ambrées.
+                </p>
+                <!--Contenance du produit-->
+                <h2 class="nof">Contenance</h2>
+                <select class="contenance" name="taille" id="">
+                    <option value="" selected>30ml - 72,00 Prix €</option>
+                    <option value="">60ml - 79,00 Prix €</option>
+                    <option value="">100ml - 109,80 Prix €</option>
+                    <option value="">200ml - 165,00 Prix €</option>
+                </select>
+                <!--button ajouter panier-->
+                <div>
+                    <button class="ajouterPanier">Ajouter au panier</button>
+                </div>
+            </section>
+        </article>
+        
+        <!--Footer-->
+    <footer>
+        <section class="footer2">
+            <section class="aidecontact">
+                <div>
+                    <h1>Aide et contact</h1>    
+                </div>
+                <div> 
+                    Qui sommes-nous ?</br>
+                    Nos engagements</br>
+                    Mentions légales</br>
+                    Livraison</br>
+                    Les retours et remboursements
+                </div>
+            </section>
+            <section class="cgv">
+                <div>
+                    <h1>Conditions générales</h1>
+                </div>
+                <div>
+                    Conditions générales de vente</br>
+                    Politique de confidentialité et Protection</br>
+                    de la vie privée</br>
+                    Les garanties</br>
+                    Le paiement
+                </div>
+            </section>
+            <section class="rejoindre">
+                <div>
+                        <h1>Rejoignez-vous</h1>
+                </div>
+                <div class="recruit">
+                        Candidature spontanée</br>
+                        Nous recrutons
+                </div>
+                <div>
+                    <h1>Paiement sécurisé</h1>
+                </div>
+                <div class="cblogo">
+                    <img src="images/cbtest.PNG" alt="logo cb">
+                </div>
+                <div class="logofb">
+                    <img src="images/logosreseaux.PNG" alt="logo reseaux">
+                </div>
+            </section>
+        </section>
+            </section>
+            <div class=footer>
+                <img src="images/ParfumeTaVieFr" alt="Logo 2 Site">
+            </div>
+            <div>
+                Tous droits réservés © 2023 - Parfumetavie.fr  
+            </div>
+        </footer>
+        
+        
+        
+
+
+
+
+        <script src="scriptproduit.js"></script>
+    </body>
+</html>

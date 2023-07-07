@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="connexion.css">
+    <title>Document</title>
+</head>
+<body>
+      
+    <form class="formulaireConnexion" action="index.html">
+        <a href="index.html" title= "LogoPTV"><img src="images/LogoPTV" alt="Logo PTV" /></a>
+        <div>
+            <input class="inputConn" type="text" placeholder="Nom*" required>  
+            <input class="inputConn" type="text" placeholder="Prénom*" required>
+        </div>
+        <div class="birthday">
+            <input class="inputConn" type="text" placeholder="Date de naissance*" required>
+        </div>
+        <div class="adresse">
+            <input class="inputConn" type="text" placeholder="Adresse*" required>
+        </div>
+        <div>
+            <input class="inputConn" type="text" placeholder="Code Postal*" required>
+            <input class="inputConn" type="text" placeholder="Ville*" required>
+        </div>
+        <select class="inputConn" name="Pays" id="pays-select">
+            <option value="france" selected>France</option>
+            <option value="royaume-uni">Royaume-Uni</option>
+            <option value="espagne">Espagne</option>
+            <option value="italie">Italie</option>
+            <option value="belgique">Belgique</option>
+            <option value="allemagne">Allemagne</option>
+        </select>
+        <div>
+            <input class="inputConn" type="number" placeholder="Téléphone*" required>
+            <input class="inputConn" type="text" placeholder="email@gmail.com*" required>  
+        </div>
+            <input class="inputConn" type="password" placeholder="Mot de passe*" required>
+            <input class="inputConn" type="password" placeholder="Confirmez le mot de passe*" required>
+            <label for="CGU">« Je reconnais avoir pris connaissance des CGV »</label>
+            <input class="inputConn" type="checkbox" id="CGU" name="CGU" required>
+            <label for="CGU">« Je m’oppose à ce que la société ABCD me propose par courriel des produits analogues à ceux que j’ai déjà commandés. »</label>
+            <input class="inputConn" type="checkbox" id="CGU" name="CGU" required>
+            <button type="submit">S'inscrire</button>
+        </div>
+    </form>
+
+</body>
+</html>

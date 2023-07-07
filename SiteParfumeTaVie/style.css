@@ -1,0 +1,265 @@
+*{
+    font-family: 'Abril Fatface', 'serif',vcursive;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.slogan img{
+    height: 75px;
+}
+
+.entete{
+    background-color:white;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.panier img{
+    display: flex;
+    position: relative;
+    justify-content: end;
+    bottom: 4px;
+    left: 345px;
+    margin-top: 10px;
+    height: 50px;
+}
+
+.navRecherche{
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.recherche input{
+    width: 750px;
+    height: 30px;
+    border: solid;
+}
+
+.navBar a.new{
+    color: red;
+}
+
+.navBar a.new:visited{
+    color: red;
+}
+
+.navBar a:visited{
+    color:black;
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+a{
+    text-decoration: none;
+}
+.navBar{
+    background-color: rgb(255, 231, 206);
+    font-size: 1.5em;
+    color: black;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.navBar a{
+    text-decoration: none;
+}
+
+footer img{
+    height: 20px; 
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    border-top: 1rem solid;
+    border-color: black;
+}
+
+.carousel{
+    background-color: rgb(166, 166, 218);
+    margin-top: 50px;
+}
+
+.inscription{
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+}
+
+.connexion{
+font-size: 20px;
+font-weight: 600;
+color: black;
+}
+
+.carouselNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.passer{
+    text-align: center;
+    padding: 15px;
+}
+
+.point{
+    padding: 10px 20px 0px 10px;
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: rgb(255, 231, 206);
+    cursor: pointer;  
+}
+
+.promos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.livraison{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.bestseller{
+    font-size: 2em;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.bestseller h1{
+    margin-left: 95px;
+}
+
+.bestimgs{
+    display: flex;
+    justify-content: center;
+}
+
+.barreleft{
+    float: left;
+    position: sticky;
+    top: 20px;
+    width: 150px;
+    height: 1920px;
+    margin-top: 40px;
+    background-color: rgb(255, 231, 206);
+}
+
+.barreright{
+    float: right;
+    position: sticky;
+    top: 20px;
+    width: 150px;
+    height: 1920px;
+    margin-top: 40px;
+    background-color: rgb(255, 231, 206);
+}
+
+.boutons{
+    display: flex;
+    justify-content: space-around;
+}
+.bouton1{
+    display: inline-block;
+    background-color: black;
+    width: 25%;
+    height: 60px;
+    margin: 15px 2.5% 15px 2.5%;
+	text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.chanelpacoguerlain{
+    margin-top: 50px;
+}
+
+.cart{
+    display: flex;
+    justify-content: center;
+}
+
+.vp{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.vpbuttoncss{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#vpbutton2{
+    opacity: 0;
+}
+
+.banniere{
+    display: flex;
+    justify-content: center;
+}
+
+.pubs{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 75px;
+    margin-right: 125px;
+    margin-bottom: 50px;
+    margin-left: 125px;
+}
+
+.aidecontact{
+    display: inline-block;
+}
+
+.cgv{
+    display: inline-block;
+}
+
+.rejoindre{
+    display: inline-block;
+}
+
+.footer2{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.logofb img{
+    height: 50px;
+}
+
+.cblogo img{
+    height: 25px;
+    margin-top: 20px;
+}
+
+.recruit{
+    margin-bottom: 20px;
+}

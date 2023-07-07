@@ -1,0 +1,256 @@
+*{
+    font-family: 'Abril Fatface', 'serif', cursive;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.slogan img{
+    height: 75px;
+}
+
+.entete{
+    background-color:white;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.panier img{
+    display: flex;
+    position: relative;
+    justify-content: end;
+    bottom: 4px;
+    left: 345px;
+    margin-top: 10px;
+    height: 50px;
+}
+
+.navRecherche{
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.recherche input{
+    width: 750px;
+    height: 30px;
+    border: solid;
+}
+
+.navBar a.new{
+    color: red;
+}
+
+.navBar a.new:visited{
+    color: red;
+}
+
+.navBar a:visited{
+    color:black;
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+a{
+    text-decoration: none;
+}
+.navBar{
+    background-color: rgb(255, 231, 206);
+    font-size: 1.5em;
+    color: black;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.navBar a{
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.pageProduit{
+    display: flex;
+    margin-top: 50px;
+    
+}
+
+.buttonFiltre{
+    margin-top: 10px;
+}
+
+
+#buttonPlus{
+    margin-left: 50%;
+}
+
+.voir{
+    margin-left: 50%;
+}
+
+.parfumProduit {
+    width: auto;
+}
+
+.marqueProduit{
+    width: 50%;
+}
+
+
+.filtre{
+    width: 15%;
+    background-color: bisque;
+    margin-right: 150px;
+}
+
+
+
+#buttonPlus{
+   text-align: center;
+}
+
+.produitPetit{
+    width: 20%;
+}
+.produitGrande{
+    width: 90%;
+}
+
+.flexImages img{
+
+    width: 200px;
+    margin-left: 26px;
+    
+}
+
+.titreImage{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.ajouterPanier{
+    margin-top: 10px;
+    margin-left: 70%;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    width: 25%;
+    height: 60px;
+
+}
+
+
+
+.jsAjoutePanier{
+    border: solid;
+    background-color: red;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+.contenance{
+    width: 180px;
+    padding: 5px;
+}
+
+
+.titreDior{
+    font-size: 50px;
+    
+    margin: 0;
+}
+
+.prix input{
+    width: 80px;
+}
+
+
+.avisBorder{
+    border-bottom: solid;
+    padding-bottom: 40px;
+}
+
+
+
+
+#masquezAvis{
+    display: none;
+}
+
+
+.lo{
+    display: block;
+}
+
+.nof{
+    margin-top: 50px;
+}
+
+#avcl{
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+#comp{
+    margin-top: 25px;
+}
+
+footer img{
+    height: 20px; 
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    border-top: 1rem solid;
+    border-color: black;
+    margin-top: 30px;
+}
+
+.cgv{
+    display: inline-block;
+}
+
+.rejoindre{
+    display: inline-block;
+}
+
+.footer2{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.logofb img{
+    height: 50px;
+}
+
+.cblogo img{
+    height: 25px;
+    margin-top: 20px;
+}
+
+.recruit{
+    margin-bottom: 20px;
+}

@@ -1,0 +1,29 @@
+.formulaireConnexion{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 231, 206);
+    height: 100vh;
+}
+
+.birthday{
+    display: flex;
+    position: relative;
+    justify-content: start;
+}
+
+.adresse{
+    display: flex;
+    justify-content: start;
+}
+
+.formulaireConnexion button , input , select{
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.formulaireConnexion button {
+    width: 175px;
+}
